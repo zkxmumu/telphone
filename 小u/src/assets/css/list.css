@@ -1,0 +1,123 @@
+@charset "utf-8";
+.page {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.page .meau {
+  display: flex;
+  justify-content: space-between;
+  width: .55rem;
+}
+.page .meau span {
+  display: block;
+  width: .12rem;
+  height: .12rem;
+  background: #030303;
+  border-radius: 50%;
+}
+.page .footer {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-left: .49rem;
+  padding-right: .67rem;
+  padding-top: .05rem;
+  box-sizing: border-box;
+}
+.page .footer a {
+  align-items: center;
+  margin-top: .17rem;
+}
+.page .footer a img {
+  width: .51rem;
+  height: .56rem;
+}
+.page .footer a p {
+  font: 0.2rem/0.46rem "微软雅黑";
+  color: #727272;
+}
+.page .footer a .frist {
+  color: #df7333;
+}
+body {
+  background: #f1f1f1;
+}
+.headcon {
+  display: flex;
+  justify-content: space-between;
+  height: .88rem;
+  align-items: center;
+  background: #fff;
+  padding: 0 .23rem;
+  padding-top: .40rem;
+  border-bottom: 1px solid #e4e4e4;
+}
+.headcon img {
+  width: auto;
+  height: .43rem;
+}
+.banner {
+  position: relative;
+  background: #fff;
+  padding-top: .24rem;
+  padding-bottom: .52rem;
+}
+.banner em {
+  width: .26rem;
+  height: .26rem;
+  position: absolute;
+  top: .51rem;
+  left: 2.65rem;
+  background: url(../images/search.jpg) no-repeat 0 0;
+}
+.banner input {
+  display: block;
+  width: 6.25rem;
+  background: #f26b11;
+  margin: 0 auto;
+  border-radius: .5rem;
+  text-align: center;
+  font: 0.26rem/0.77rem "微软雅黑";
+}
+.banner ::placeholder {
+  color: #fff;
+}
+.main {
+  background: #fff;
+  padding-bottom: 1.37rem;
+}
+.main .one {
+  width: 7.04rem;
+  display: flex;
+  border-bottom: 1px solid 
+            #d1d1d1;
+  margin-left: .23rem;
+}
+.main .one .tu img {
+  width: 1.55rem;
+  height: 1.55rem ;
+  margin-left: .33rem;
+}
+.main .one .word {
+  margin-left: .43rem;
+}
+.main .one .word h3 {
+  font: 0.26rem/0.37rem "微软雅黑";
+  color: #333333;
+}
+.main .one .word .yen {
+  font: 0.26rem/0.6rem "微软雅黑";
+  color: #e53a3c;
+}
+.main .one .word .pinglun {
+  font: 0.26rem/0.37rem "微软雅黑";
+  color: #c6c6c6;
+  margin-bottom: .2rem;
+}
+.main .one1 {
+  margin-top: .27rem;
+}
